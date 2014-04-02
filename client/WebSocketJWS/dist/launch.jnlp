@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>WebSocket</title>
+        <vendor>Mauricio Leal</vendor>
+        <homepage href=""/>
+        <description>WebSocket</description>
+        <description kind="short">WebSocket</description>
+    <icon href="web_socket.png" kind="default"/>
+</information>
+    <update check="always"/>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="websocket-jws.jar" main="true"/>
+    <jar href="lib/tyrus-standalone-client-1.5.jar"/>
+</resources>
+    <application-desc main-class="">
+    </application-desc>
+</jnlp>
