@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<jnlp spec="1.0+" codebase="https://github.com/maltron/websocket/blob/master/" href="websocket.jnlp">
+	<information>
+		<title>WebSocket Client</title>
+		<vendor>Mauricio Leal</vendor>
+		<homepage href="https://github.com/maltron/websocket/blob/master/README.md" />
+		<description>A simple application to access a WebSocket Endpoint</description>
+                <icon href="web_socket.png" kind="default"/>
+	</information>
+	<security>
+		<all-permissions/>
+	</security>
+	<resources>
+		<j2se version="1.8+" />
+		<jar href=".jar" />
+	</resources>
+	<application-desc main-class="net.nortlam.websocket.EndpointGUI" />
+</jnlp>
